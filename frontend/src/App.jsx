@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { io } from "socket.io-client";
-const socket = io("http://localhost:5000");
+const socket = io("https://realtimecodeeditor-q4z3.onrender.com");
 import Editor from "@monaco-editor/react";
 
 const App = () => {
